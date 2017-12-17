@@ -14,13 +14,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
 	display: block;
 }
 
-html {
-	border: 5px solid 4b636e;
-}
+
 
 body {
 	line-height: 1;
-	border: 5px solid 4b636e;
 }
 ol, ul {
 	list-style: bullet;
@@ -44,9 +41,8 @@ body {
 	font-family: Verdana, serif;
 	font-size: 13px;
 	line-height: 1.7;
-	border-bottom: 20px solid #4b636e;
+	
 	border-top: 20px solid #4b636e;
-	border-color: #4b636e;
 }
 
 a, a:active, a:visited {
