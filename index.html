@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Solar Theme
+title: La Frikitiva
 ---
 
 {% for post in paginator.posts %}
@@ -29,20 +29,20 @@ title: Solar Theme
 
 		{% if paginator.previous_page %}
 			{% if paginator.page == 2 %}
-				<a class="prev left" href="/">&larr; Newer</a>
+				<a class="prev left" href="/">&larr; Más reciente</a>
 			{% else %}
-				<a class="prev left" href="/page{{paginator.previous_page}}/">&larr; Newer</a>
+				<a class="prev left" href="/page{{paginator.previous_page}}/">&larr; Más reciente</a>
 			{% endif %}
 		{% else %}
-			<span class="nope left">&larr; Newer</span>
+			<span class="nope left">&larr; Más reciente</span>
 		{% endif %}
 
-		<span class="pages">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+		<span class="pages">Página {{ paginator.page }} de {{ paginator.total_pages }}</span>
 
 		{% if paginator.next_page %}
-			<a class="next right" href="/page{{paginator.next_page}}/">Older &rarr;</a>
+			<a class="next right" href="/page{{paginator.next_page}}/">Anteriores &rarr;</a>
 		{% else %}
-			<span class="nope right">Older &rarr;</span>
+			<span class="nope right">Anteriores &rarr;</span>
 		{% endif %}
 
 	</div>
