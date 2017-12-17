@@ -9,4 +9,3 @@ En este vídeo se explica perfectamente, aunque el tipo sea bastante ahostiable.
 
 {% include youtubePlayer.html id=l4bmZ1gRqCc %}
 
-<iframe width=100% src="https://www.youtube.com/embed/l4bmZ1gRqCc?rel=0" frameborder="0" allowfullscreen> < /iframe>
