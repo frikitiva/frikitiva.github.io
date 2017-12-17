@@ -84,15 +84,16 @@ acronym, abbr {
 
 
 h1 {
-	font-size: 13px;
+	font-size: 14px;
 	margin: 0 0 10px 0;
+	font-weight: bold:
 }
 h2 {
-	font-size: 13px;
+	font-size: 14px;
 	margin: 0 0 10px 0;
 }
 h3 {
-	font-size: 13px;
+	font-size: 14px;
 	margin: 0 0 10px 0;
 }
 
@@ -172,7 +173,7 @@ article {
 }
 
 article h1 {
-	font-size: 13px;
+	font-size: 14px;
 	margin: 0 0 10px 0;
 }
 article h1 a {
@@ -193,7 +194,7 @@ article img {
 article .meta {
 	padding-top: 6px;
 	font-size: 0.85em;
-	font-style: italic;
+	color: #4b636e;
 }
 
 img.left {
