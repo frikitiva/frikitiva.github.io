@@ -76,7 +76,8 @@ acronym, abbr {
 
 
 h1 {
-	font-size: 17px;
+	font-size: 13px;
+	font-weight: bold;
 	margin: 0 0 10px 0;
 }
 h2 {
