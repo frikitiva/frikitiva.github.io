@@ -88,15 +88,15 @@ acronym, abbr {
 
 
 h1 {
-	font-size: 17px;
+	font-size: 13px;
 	margin: 0 0 10px 0;
 }
 h2 {
-	font-size: 15px;
+	font-size: 13px;
 	margin: 0 0 10px 0;
 }
 h3 {
-	font-size: 14px;
+	font-size: 13px;
 	margin: 0 0 10px 0;
 }
 
@@ -176,7 +176,7 @@ article {
 }
 
 article h1 {
-	font-size: 17px;
+	font-size: 13px;
 	margin: 0 0 10px 0;
 }
 article h1 a {
