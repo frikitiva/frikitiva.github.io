@@ -1,3 +1,6 @@
+/* @override 
+	http://lafrikitiva.com/assets/css/style.css */
+
 /*** Reset ***/
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
 	margin: 0;
@@ -10,8 +13,14 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
+html {
+	border: 5px solid 4b636e;
+}
+
 body {
 	line-height: 1;
+	border: 5px solid 4b636e;
 }
 ol, ul {
 	list-style: bullet;
@@ -35,6 +44,9 @@ body {
 	font-family: Verdana, serif;
 	font-size: 13px;
 	line-height: 1.7;
+	border-bottom: 20px solid #4b636e;
+	border-top: 20px solid #4b636e;
+	border-color: #4b636e;
 }
 
 a, a:active, a:visited {
@@ -64,7 +76,7 @@ blockquote {
     margin: 22px 22px;
     padding: 0 20px;
     border-left: 2px solid #000000;
-    font-style: italic;
+	font-style: italic;
     line-height: 1.5em;
 }
 
@@ -76,15 +88,15 @@ acronym, abbr {
 
 
 h1 {
-	font-size: 13px;
+	font-size: 17px;
 	margin: 0 0 10px 0;
 }
 h2 {
-	font-size: 13px;
+	font-size: 15px;
 	margin: 0 0 10px 0;
 }
 h3 {
-	font-size: 13px;
+	font-size: 14px;
 	margin: 0 0 10px 0;
 }
 
@@ -153,6 +165,8 @@ h3 {
 
 #sidebar a {
 	border: none;
+	font-family: "Helvetica Neue", "Helvetica", serif;
+	font-size: 1.2em;
 	padding: 2px 4px;
 }
 
@@ -181,7 +195,6 @@ article img {
 	max-width: 100%;
 	height: auto;
 }
-
 
 article .meta {
 	padding-top: 6px;
